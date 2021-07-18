@@ -1,4 +1,4 @@
-from typing import Iterator
+from typing import Iterator, Dict
 import datetime as _dt
 import json as _json
 
@@ -30,5 +30,4 @@ if __name__ == "__main__":
     with open("events.json", mode="w") as events_file:
         _json.dump(events, events_file, ensure_ascii=False)
 
-      
 
