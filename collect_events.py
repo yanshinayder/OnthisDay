@@ -10,10 +10,10 @@ def _date_range(start_date: _dt.date, end_date: _dt.date) -> Iterator[_dt.date]:
         yield start_date + _dt.timedelta(n)
 
 
-def create_events_dict():
+def create_events_dict() -> Dict:
     events = dict()
     start_date = _dt.date(2020, 1, 1)
-    end_date = _dt.date(2021, 1, 1)
+    end_date = _dt.date(2020, 1, 5)
 
     for date in _date_range(start_date, end_date):
         month = date.strftime("%B").lower()
@@ -24,10 +24,10 @@ def create_events_dict():
 
     return events
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     events = create_events_dict()
-    with open("events.json", mode="w") as events_file:
+    with open('events.json', mode = 'w') as events_file:
         _json.dump(events, events_file, ensure_ascii=False)
+
 
 
