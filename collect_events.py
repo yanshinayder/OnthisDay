@@ -13,7 +13,7 @@ def _date_range(start_date: _dt.date, end_date: _dt.date) -> Iterator[_dt.date]:
 def create_events_dict() -> Dict:
     events = dict()
     start_date = _dt.date(2020, 1, 1)
-    end_date = _dt.date(2020, 1, 10)
+    end_date = _dt.date(2020, 1, 30)
 
     for date in _date_range(start_date, end_date):
         month = date.strftime("%B").lower()
