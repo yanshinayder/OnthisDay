@@ -9,7 +9,7 @@
 * In terminal use enter "Uvicorn main:app --reload"
 * In browser write this url "127.0.0.1:8000"
 
-# Function  :open_file_folder:
+# Functions  :open_file_folder:
 
 * Use 8000/docs for open painel to search to month
 * Use 8000/events to return all events of Year.
