@@ -10,7 +10,7 @@
 * In terminal use enter "Uvicorn main:app --reload"
 * In browser write this url "127.0.0.1:8000"
 
-# Necessary modules
+# Necessary modules :closed_book:
 * from typing import Iterator, Dict
 * import datetime 
 * import json
