@@ -3,7 +3,7 @@ import json as _json
 
 
 def get_all_events() -> Dict:
-    with open("events.json") as events_file:
+    with open("events.json", encoding='utf-8') as events_file:
         data = _json.load(events_file)
 
     return data
