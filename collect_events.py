@@ -2,6 +2,7 @@ from typing import Iterator, Dict
 import datetime as _dt
 import json as _json
 
+
 import scraper as _scraper
 
 
@@ -13,7 +14,7 @@ def _date_range(start_date: _dt.date, end_date: _dt.date) -> Iterator[_dt.date]:
 def create_events_dict() -> Dict:
     events = dict()
     start_date = _dt.date(2020, 1, 1)
-    end_date = _dt.date(2020, 1, 30)
+    end_date = _dt.date(2021, 1, 1)
 
     for date in _date_range(start_date, end_date):
         month = date.strftime("%B").lower()
@@ -26,7 +27,7 @@ def create_events_dict() -> Dict:
 
 if __name__ == '__main__':
     events = create_events_dict()
-    with open('events.json', mode = 'w') as events_file:
+    with open('events.json', mode = 'w', encoding='UTF-8') as events_file:
         _json.dump(events, events_file, ensure_ascii=False)
 
 
