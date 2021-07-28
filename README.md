@@ -1,4 +1,4 @@
-# FASTAPI - OnthisDay :heavy_exclamation_mark:
+# OnthisDay :heavy_exclamation_mark:
 
 ## Web Scraping project and API consumption via URL onthisday.com
 
