@@ -28,3 +28,4 @@ async def get_events_of_month(month: str):
 @app.get("/events{month}/{day}")
 async def events_of_day(month: str, day: int):
     return _services.get_events_of_day(month, day)
+

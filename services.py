@@ -1,7 +1,7 @@
 from typing import Dict
 import json as _json
 import datetime as _dt
-
+import random
 
 def get_all_events() -> Dict:
     with open("events.json", encoding='utf-8') as events_file:
@@ -31,3 +31,4 @@ def get_today():
     today = _dt.date.today()
     month = today.strftime("%B").lower()
     return get_events_of_day(month, today.day)
+
