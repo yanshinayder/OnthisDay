@@ -21,6 +21,9 @@
 * import requests 
 * import bs4 
 
+# Version
+* Recommend Python 3 version 3.9.6
+
 # Functions  :open_file_folder:
 
 * Use 8000/docs for open painel to search to month
