@@ -22,7 +22,7 @@
 * import bs4 
 
 # Version
-* Recommend Python 3 version 3.9.6
+* Recommended Python 3 version 3.9.6
 
 # Functions  :open_file_folder:
 
