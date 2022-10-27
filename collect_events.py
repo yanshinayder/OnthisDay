@@ -2,7 +2,6 @@ from typing import Iterator, Dict
 import datetime as _dt
 import json as _json
 
-
 import scraper as _scraper
 
 
