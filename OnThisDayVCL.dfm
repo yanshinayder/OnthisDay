@@ -27,12 +27,12 @@ object Form1: TForm1
     Height = 13
     Caption = 'Dia'
   end
-  object AllDays: TButton
+  object GetToday: TButton
     Left = 24
     Top = 24
     Width = 121
     Height = 25
-    Caption = 'AllDays'
+    Caption = 'GetToday'
     TabOrder = 0
     OnClick = AllDaysClick
   end
@@ -56,7 +56,7 @@ object Form1: TForm1
     Width = 601
     Height = 431
     Lines.Strings = (
-      'Memo')
+      '')
     TabOrder = 3
   end
   object Button1: TButton
