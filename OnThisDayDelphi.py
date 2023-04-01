@@ -22,8 +22,7 @@ class Form1(Form):
     def Button1Click(self, Sender):
         if not self.Edit1.Text:
             self.Memo.text = "Digite um mês Válido"       
-        else:            
-            self.Memo.text = '' #Entra o Retorno da função
-
-    def Button2Click(self, Sender):
-        pass
+        elif not self.Edit2.Text:            
+            self.Memo.text = services.get_month_events(self.Edit1.Text)
+        else:
+            self.Memo.text = services.get_events_of_day(self.Edit1.Text, self.Edit2.Text)

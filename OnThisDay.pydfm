@@ -22,7 +22,7 @@ object Form1: TForm1
   end
   object Label2: TLabel
     Left = 32
-    Top = 272
+    Top = 213
     Width = 33
     Height = 13
     Caption = 'Dia'
@@ -32,20 +32,20 @@ object Form1: TForm1
     Top = 24
     Width = 121
     Height = 25
-    Caption = 'AllDays'
+    Caption = 'GetToday'
     TabOrder = 0
     OnClick = AllDaysClick
   end
   object Edit1: TEdit
     Left = 24
-    Top = 184
+    Top = 180
     Width = 169
     Height = 21
     TabOrder = 1
   end
   object Edit2: TEdit
     Left = 24
-    Top = 288
+    Top = 229
     Width = 169
     Height = 21
     TabOrder = 2
@@ -56,25 +56,17 @@ object Form1: TForm1
     Width = 601
     Height = 431
     Lines.Strings = (
-      'Memo')
+      )
     TabOrder = 3
   end
   object Button1: TButton
     Left = 24
-    Top = 211
+    Top = 265
     Width = 75
     Height = 25
     Caption = 'Enviar'
     TabOrder = 4
     OnClick = Button1Click
   end
-  object Button2: TButton
-    Left = 24
-    Top = 315
-    Width = 75
-    Height = 25
-    Caption = 'Enviar'
-    TabOrder = 5
-    OnClick = Button2Click
-  end
+
 end
