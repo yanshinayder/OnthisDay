@@ -10,13 +10,17 @@ type
   TForm1 = class(TForm)
     GetToday: TButton;
     Edit1: TEdit;
-    Edit2: TEdit;
+    Edit2: TEdit;    
     Label1: TLabel;
     Label2: TLabel;
-    Button1: TButton;    
+    Button1: TButton; 
+    Button2: TButton;
+    Button3: TButton;   
     Memo: TMemo;
     procedure AllDaysClick(Sender: TObject);
-    procedure Button1Click(Sender: TObject);    
+    procedure Button1Click(Sender: TObject); 
+    procedure Button2Click(Sender: TObject);  
+    procedure Button3Click(Sender: TObject);   
   private
     { Private declarations }
   public
@@ -32,12 +36,22 @@ implementation
 
 procedure TForm1.AllDaysClick(Sender: TObject);
 begin
-  Memo.Text :=  Edit1.Text;
+  //
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  Memo.Text :=  Edit1.Text;
+  //
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  //
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  //
 end;
 
 end.
