@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 import services as _services
 
-app = FastAPI()
+app = FastAPI(title="OnThisDelphi", description="API de eventos históricos", version="1.0.0")
 
 
 @app.get("/")
